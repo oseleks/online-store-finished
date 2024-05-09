@@ -8,6 +8,7 @@ import { isAuthorized } from "../../router/guards/index.js";
 export default class NavigationBar extends BaseComponent {
   links = [
     { name: "Home", path: "/home", guard: () => true },
+    { name: "Dashboard", path: "/dashboard", guard: () => true },
     {
       name: "Create product",
       path: "/create-product",
