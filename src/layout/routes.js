@@ -14,6 +14,10 @@ const routes = [
     path: "cart",
   },
   {
+    pattern: /^dashboard$/,
+    path: "dashboard",
+  },
+  {
     pattern: /^payment$/,
     path: "payment",
     guards: [isAuthorized],
